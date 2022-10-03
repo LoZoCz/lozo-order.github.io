@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+html, body
+{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+.cont
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    background-color: white;
+    height: 700px;
+    width: 500px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+img
+{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.text-cont
+{
+    padding: 0px 60px 10px 60px;
+}
+
+.text2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t1
+{
+    font-size: 30px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 0px;
+}
+
+.t2
+{
+    color: hsl(221, 14%, 70%);
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.music-card
+{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.music-card img
+{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+
+.mcard1
+{
+    display: flex;
+    align-items: center;
+}
+
+.music-card-text
+{
+    margin: 0px;
+}
+
+.t3
+{
+    margin-left: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.t4
+{
+    margin-left: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color: hsl(221, 14%, 70%);;
+}
+
+.t5
+{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    transition: color 0.15s;  
+}
+
+.t5:hover
+{
+    text-decoration: none;
+    color: hsl(245, 46%, 71%);
+}
+
+.pay
+{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border: none;
+    border-radius: 9px;
+    font-family: Red Hat Display, Arial;
+    font-weight: 700;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.pay:hover
+{
+    background-color: hsl(245, 46%, 71%);
+}
+
+.cancel
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cancel-button
+{
+    color: hsl(221, 14%, 70%);
+    font-weight: 700;
+    cursor: pointer;
+    width: 100px;
+    transition: color 0.15s;
+}
+
+.cancel-button:hover
+{
+    color: hsl(223, 47%, 23%);
+}
